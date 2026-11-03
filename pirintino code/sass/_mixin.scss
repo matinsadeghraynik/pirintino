@@ -1,0 +1,15 @@
+@mixin actionbtn($backgroundcolor:$btnbg,$color:$btncolor){
+display: block;
+background-color: $btnbg;
+color: $btncolor;
+padding: 15px;
+text-decoration: none;
+text-align: center;
+transition: .6s;
+&:hover{
+    opacity: .9;
+}
+}
+@mixin border($border:8px){
+border-radius: $border;
+}

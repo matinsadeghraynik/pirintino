@@ -1,0 +1,16 @@
+@import"vars";
+@import"mixin";
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: vazirmatn;
+ }
+ .actionbtn{
+    @include border();
+    @include actionbtn();
+   
+      border: 1px solid;
+     margin: 15px auto;
+     transition: .5s;
+ }

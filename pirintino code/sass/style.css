@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vazirmatn FD;
+}
+
+.actionbtn {
+  border-radius: 8px;
+  display: block;
+  background-color: #010430;
+  color: #ffffff;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.6s;
+  border: 1px solid;
+  margin: 15px auto;
+  transition: 0.5s;
+}
+.actionbtn:hover {
+  opacity: 0.9;
+}/*# sourceMappingURL=style.css.map */
